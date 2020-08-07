@@ -9,6 +9,13 @@ body {
 
 .star {
   margin-left: 130px;
+  transition: 
+    transform 0.5s linear;
+}
+
+.star:hover {
+  transform: rotate(360deg);
+  opacity: 1 !important;
 }
 
 .heading {

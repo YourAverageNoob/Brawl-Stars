@@ -5,10 +5,26 @@
   outline-width: 8px;
   margin-left: 150px;
   margin-top: 25px;
+  transition: transform 0.1s linear;
+}
+
+.brawler_icon:hover{
+  transform: scale(1.2, 1.2);
 }
 
 .brawler_basics {
   margin-bottom: 5px;
+}
+
+.brawler_name {
+  transition: 
+    color 0.25s linear 0.25s,
+    transform 0.1s linear;
+}
+
+.brawler_name:hover {
+  color: #B9EBFF;
+  transform: scale(1.1, 1.1);
 }
 
 .description {
@@ -16,6 +32,11 @@
   margin-right: 143px;
   padding-left: 5px;
   border: 4px solid #0a0a0a;
+  transition: transform 0.1s linear;
+}
+
+.description:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .stats {
@@ -23,7 +44,6 @@
   margin-right: 143px;
   margin-top: 10px;
   border: 4px solid #0a0a0a !important;
-
 }
 
 .stats_text_left {
@@ -39,6 +59,15 @@
 
 .stats_item {
   border: 2px solid rgb(192, 192, 192, 0.5);
+  transition: 
+    background 0.1s linear,
+    transform 0.1s linear;
+}
+
+.stats_item:hover {
+  background: rgb(185,236,255);
+  transform: scale(1.1, 1.1);
+
 }
 
 .stats_icon {
@@ -47,6 +76,12 @@
 
 .star_power {
   color: #FDC108;
+  transition: 
+    transform 0.1s linear;
+}
+
+.star_power:hover {
+  transform: skew(-15deg);
 }
 
 .star_power_icon {
@@ -55,4 +90,13 @@
 
 .gamemode {
   height: 60px;
+}
+
+.sp_desc {
+  transition: 
+    transform 0.1s linear;
+}
+
+.sp_desc:hover {
+  transform: scale(1.1, 1.1);
 }
