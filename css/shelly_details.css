@@ -90,6 +90,12 @@
 
 .gamemode {
   height: 60px;
+  transition: 
+    transform 0.1s linear;
+}
+
+.gamemode:hover {
+  transform: scale(1.5, 1.5);
 }
 
 .sp_desc {
